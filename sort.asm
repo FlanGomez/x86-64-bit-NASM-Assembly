@@ -66,6 +66,7 @@ section .text
 
         counter:
         ; Clearing working registers
+           ; can either use xor or mov to init the value to zero
             mov r9,0
             mov r10,1
             mov rax,0
